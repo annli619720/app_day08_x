@@ -1,0 +1,63 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1530877531973" stop="1530877532026">
+  <name>test_001</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1530877531973" status="failed" stop="1530877532022">
+      <name>Test_001.test_001_1</name>
+      <failure>
+        <message>AssertionError: assert 0</message>
+        <stack-trace>self = &lt;test_001.Test_001 object at 0x03FB6B70&gt;
+
+    @pytest.allure.severity(pytest.allure.severity_level.BLOCKER)
+    @allure.step(title='第一个测试')
+    def test_001_1(self):
+        allure.attach('描述', '尝试登录')
+&gt;       assert 0
+E       assert 0
+
+Scripts\test_001.py:11: AssertionError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="blocker"/>
+        <label name="thread" value="6812-MainThread"/>
+        <label name="host" value="LAPTOP-G6LNBC58"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1530877531976" status="failed" stop="1530877531979">
+          <name>第一个测试</name>
+          <title>第一个测试</title>
+          <attachments>
+            <attachment source="19971d77-240f-4444-bd51-d9c7118519b3-attachment.txt" title="描述" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1530877532025" status="passed" stop="1530877532026">
+      <name>Test_001.test_001_2</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="6812-MainThread"/>
+        <label name="host" value="LAPTOP-G6LNBC58"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1530877532026" status="passed" stop="1530877532026">
+          <name>第二一个测试</name>
+          <title>第二一个测试</title>
+          <attachments>
+            <attachment source="78a8cfcb-6200-4d34-bd39-1b7473a9ada2-attachment.txt" title="描述" type="text/plain"/>
+            <attachment source="e71b8356-2b31-4d7c-8d41-3ea0e3d35c9b-attachment.txt" title="描述" type="text/plain"/>
+            <attachment source="7dcaca04-4e3a-4a7a-a612-259151d3caf0-attachment.txt" title="描述" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>
